@@ -121,11 +121,29 @@ body {
 .footer {
 	background-color: #f2f2f2;
 	margin-top: 220px;
-	padding: 30px 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	font-size: 14px;
 }
 
 .footer a {
 	color: #70757a;
 	text-decoration: none;
+}
+
+.footer__links1--left {
+	display: flex;
+	justify-content: left;
+}
+
+.footer__links2--left {
+	width: 100px;
+	display: inline-flex;
+	justify-content: left;
+}
+
+.footer__links2--right {
+	width: 100px;
+	display: inline-flex;
+	justify-content: right;
 }
